@@ -11,7 +11,7 @@ initial
  $dumpfile ("tb_seg_display.vcd");
 $dumpvars(0,testbench);
 $monitor(sys_clk,cfg_cathode_mode,hex_in,reset_n,seg_out);
- cfg_cathode_mode = 1;
+ cfg_cathode_mode = 0;
  reset_n= 1;
  hex_in = 4'h0;
  sys_clk = 0;
